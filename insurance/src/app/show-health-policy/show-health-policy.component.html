@@ -1,0 +1,22 @@
+<div>
+  <h2>Health Insurance details</h2>
+</div>
+<table width="100%" class='table table-bordered table-striped'>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Amount</th>
+      <th>Maturity</th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr *ngFor="let eachPolicy of healthPolicyDetails | paginate:{itemsPerPage:4,currentPage:page}">
+      <td>{{eachPolicy.id}}</td>
+      <td>{{eachPolicy.policyHolderName }}</td>
+      <td>{{eachPolicy.policyAmount | currency:'INR':'symbol'}}</td>
+      <td>{{eachPolicy.maturityDate | date: 'short'}}</td>
+      <td><button class="fa fa-2x fa-edit" (click)="update(eachPolicy)"></button></td>
+      <td><button class="fa fa-2x fa-remove" (click)="remove(eachPolicy)"></button></td>
+  </tr>
+  </table>
+  <pagination-controls (pageChange)='page=$event'></pagination-controls>

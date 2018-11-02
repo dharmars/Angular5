@@ -1,0 +1,12 @@
+<p>
+  datagrid works!
+</p>
+<p>{{gridList | json}}</p>
+<div>
+  <button (click)='showHistDetails()'>ShowHistory</button>
+</div>
+<div>
+  <ul>
+    <li *ngFor='let eachGridHdr of gridHeaders'>{{eachGridHdr}}</li>
+  </ul>
+</div>

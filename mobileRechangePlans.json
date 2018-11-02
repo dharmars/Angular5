@@ -1,0 +1,6 @@
+{
+    "rechargePlans":[
+        {"id":101,"price":199,"validity":"28 days","voice":"unlimited","data":"2gb per day"},
+        {"id":101,"price":299,"validity":"50 days","voice":"unlimited","data":"3gb per day"}
+    ]
+}

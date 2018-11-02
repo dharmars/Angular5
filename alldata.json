@@ -1,0 +1,162 @@
+{
+  "lifeInsurance": [
+    {
+      "id": 101,
+      "policyHolderName": "Ramesh",
+      "policyAmount": "4500",
+      "maturityDate": "2022-20-04"
+    },
+    {
+      "id": 103,
+      "policyHolderName": "Mahesh",
+      "policyAmount": 6500,
+      "maturityDate": "2026-20-06"
+    },
+    {
+      "id": 104,
+      "policyHolderName": "Ganesh",
+      "policyAmount": 7500,
+      "maturityDate": "2027-20-07"
+    },
+    {
+      "id": 105,
+      "policyHolderName": "Kamesh",
+      "policyAmount": 8500,
+      "maturityDate": "2028-20-08"
+    },
+    {
+      "id": "106",
+      "policyHolderName": "Ramu",
+      "policyAmount": "120000",
+      "maturityDate": "2018-11-23"
+    },
+    {
+      "id": "107",
+      "policyHolderName": "Samu",
+      "policyAmount": "321110",
+      "maturityDate": "2018-11-12"
+    },
+    {
+      "id": "109",
+      "policyHolderName": "Tinu",
+      "policyAmount": "43210",
+      "maturityDate": "2018-11-30"
+    },
+    {
+      "id": "102",
+      "policyHolderName": "Suresh",
+      "policyAmount": "234500",
+      "maturityDate": "2018-12-29"
+    }
+  ],
+  "healthInsurance": [
+    {
+      "id": 101,
+      "policyHolderName": "Ramesh",
+      "policyAmount": "4500",
+      "maturityDate": "2022-20-04"
+    },
+    {
+      "id": 103,
+      "policyHolderName": "Mahesh",
+      "policyAmount": 6500,
+      "maturityDate": "2026-20-06"
+    },
+    {
+      "id": 104,
+      "policyHolderName": "Ganesh",
+      "policyAmount": 7500,
+      "maturityDate": "2027-20-07"
+    },
+    {
+      "id": 105,
+      "policyHolderName": "Kamesh",
+      "policyAmount": 8500,
+      "maturityDate": "2028-20-08"
+    },
+    {
+      "id": "106",
+      "policyHolderName": "Ramu",
+      "policyAmount": "120000",
+      "maturityDate": "2018-11-23"
+    },
+    {
+      "id": "107",
+      "policyHolderName": "Samu",
+      "policyAmount": "321110",
+      "maturityDate": "2018-11-12"
+    },
+    {
+      "id": "109",
+      "policyHolderName": "Tinu",
+      "policyAmount": "43210",
+      "maturityDate": "2018-11-30"
+    },
+    {
+      "id": "102",
+      "policyHolderName": "Suresh",
+      "policyAmount": "234500",
+      "maturityDate": "2018-12-29"
+    }
+  ],
+  "advisors": [
+    {
+      "id": 201,
+      "name": "Rao",
+      "mobileNum": 94444441
+    },
+    {
+      "id": 202,
+      "name": "Kumar",
+      "mobileNum": 94444442
+    },
+    {
+      "id": 203,
+      "name": "Reddy",
+      "mobileNum": 94444443
+    },
+    {
+      "id": 204,
+      "name": "Lakshmi",
+      "mobileNum": 94444444
+    },
+    {
+      "id": 205,
+      "name": "Murthy",
+      "mobileNum": 94444444
+    }
+  ],
+  "rechargePlans": [
+    {
+      "id": 101,
+      "price": 199,
+      "validity": "28 days",
+      "voice": "unlimited",
+      "data": "2gb per day"
+    },
+    {
+      "id": 101,
+      "price": 299,
+      "validity": "50 days",
+      "voice": "unlimited",
+      "data": "3gb per day"
+    }
+  ],
+  "transHist": [
+    {
+      "plan:": "plan1",
+      "Date": "10/10/2018",
+      "amount": 200
+    },
+    {
+      "plan:": "plan2",
+      "Date": "11/10/2018",
+      "amount": 300
+    },
+    {
+      "plan:": "plan3",
+      "Date": "08/10/2018",
+      "amount": 200
+    }
+  ]
+}
